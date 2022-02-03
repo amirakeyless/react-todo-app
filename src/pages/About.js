@@ -7,7 +7,7 @@ function About() {
         className="text-xl font-bold"
         data-testid="about-page-header">
         About
-          CHANGING TEXT HERE
+          CHANGING TEXT HERE !
       </h1>
 
       <p className="mt-4">
