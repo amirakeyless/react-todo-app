@@ -9,7 +9,7 @@ describe("add todo item form", () => {
   });
 
   it("should display a text input for the task", () => {
-    cy.getByTestId("task-input-field").should("be.visible");
+    cy.getByTestId("task-input-field").should("not.be.visible");
   });
 
   it("should display a plus button for adding a new task", () => {
