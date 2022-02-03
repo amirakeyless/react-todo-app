@@ -17,3 +17,4 @@ jobs:
         with:
           start: npm start
           parallel: true
+          record: true
