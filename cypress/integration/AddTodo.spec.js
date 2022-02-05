@@ -36,7 +36,7 @@ describe("add todo item form", () => {
   it("can be used to add new tasks to the to-do list", () => {
     let task = random.words();
 
-    cy.getByTestId("task-input-field").type(task);
+    cy.getByTestId("task-input-field").type(Cypress.env("HOST"));
     cy.getByTestId("task-submit-btn").click();
 
     // Check that the new task was added to the bottom of the list
