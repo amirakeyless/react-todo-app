@@ -9,6 +9,7 @@ describe("add todo item form", () => {
   });
 
   it("should display a text input for the task", () => {
+    console.log("HOST here", Cypress.env("HOST"))
     cy.getByTestId("task-input-field").should("not.be.visible");
   });
 
