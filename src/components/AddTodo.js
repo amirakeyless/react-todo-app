@@ -16,7 +16,7 @@ function AddTodo(props) {
     }
 
     props.addTodo(title);
-
+    //some comment
     // Clear task text in component state
     setTitle("");
   };
